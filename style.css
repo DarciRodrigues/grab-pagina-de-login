@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/undraw_interview_rmcf.svg");
+    background-position: right 1px;
+    background-size: 62%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    background-color: #4E5BEE;
+    height: 100vh;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 140px;
+    margin-bottom: 32px;
+}
+form{
+    border: 1px solid black;
+    width: 48%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+}
+input{
+    width: 89%;
+    height: 32px;
+    border-radius: 20px;  
+    margin-bottom: 8px; 
+   border: 1px solid #F8F8F8;
+   background-color:#4E5BEE ;
+}
+input:focus{
+    border: 2px solid brown;
+}
+
+.material-icons-outlined{}
+button{
+    background-color: #F8F8F8;
+    width: 89%;
+    height: 32px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    font-weight:  bold;
+    border: 1px solid #F8F8F8;
+}
+p {
+    color: #F8F8F8;
+}
+a{
+    color:  #F8F8F8;
+    text-decoration: none;
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
