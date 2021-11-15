@@ -3,6 +3,6 @@ function validarEmail() {
     let erro = document.querySelector('.error-validation')
     let re = /\S+@\S+\.\S+/;
     if (!re.test(email)) {
-        erro.innerHTML = "por favor,insira um email válido"
+        erro.innerText = "por favor,insira um email válido"
     }
 }
